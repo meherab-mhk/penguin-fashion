@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
         .font-bebas{
             font-family: 'Bebas Neue', sans-serif;
         }
@@ -18,9 +24,9 @@
     </style>
 </head>
 <body>
-    <header class="py-8 bg-[#FFFBF0]">
-        <section class="max-w-7xl mx-auto">
-            <nav class="flex justify-between items-center">
+    <header class="py-12 bg-[#FFFBF0]">
+        <section class="max-w-6xl mx-auto">
+            <nav class="flex justify-between items-center mb-8">
                 <a href=""><img src="icons/logo.png" class="w-56" alt="logo"></a>
                 <ul class="flex">
                     <li class="mr-12 font-roboto text-[#3C3C3C] font-normal"><a href="">Home</a></li>
@@ -29,9 +35,34 @@
                     <li class="mr-12 font-roboto text-[#3C3C3C] font-normal"><a href="">Contact us</a></li>
                 </ul>
             </nav>
+            <div class="banner flex justify-between items-center">
+                <div class="banner-content">
+                    <h3 class="font-bebas font-normal text-7xl"><span class="uppercase text-[#FABE4C]">Be the Penguins</span> <br>
+                        <span class="uppercase text-[#363958]">of Winter</span></h3>
+                    <p class="text-[#3E3E3E] font-roboto font-normal mb-2">Lorem Ipsum is simply dummy text of the printing <br>
+                        and typesetting industry.</p>
+                    <button class="uppercase px-8 py-4 bg-gradient-to-r
+                     from-[#A4BC46] to-[#85A019] text-white rounded-lg
+                     font-roboto font-semibold text-base inline">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+                      
+                     Buy Now</button>
+                </div>
+                <div class="banner-img">
+                    <img src="images/model.png" class="w-full" alt="">
+                </div>
+            </div>
         </section>
     </header>
-    <main></main>
+    <main>
+        <!-- Women's jacket section -->
+        <!-- <section class="max-w-6xl mx-auto py-12">
+            <h3 class="font-bebas text-[#363958] font-normal text-5xl">Women's Jacket</h3>
+        </section> -->
+        <!-- Men's jacket section -->
+    </main>
     <footer></footer>
 </body>
 </html>
